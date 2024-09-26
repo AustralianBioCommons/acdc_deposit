@@ -7,6 +7,7 @@ Simple repository to facilitate preparation of data prior to data transfer for t
 To create a directory structure for a study with ID `AusDiab` run:
 
 ```sh
+git clone https://github.com/AustralianBioCommons/acdc_deposit.git
 bash create_template.sh -s AusDiab
 ```
 
