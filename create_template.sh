@@ -59,7 +59,7 @@ fi
 echo "Root directory created: $ROOT_NAME"
 
 # Create subdirectories
-for dir in clinical genomic imaging metabolomic proteomic study study/data_dictionaries; do
+for dir in clinical genomic imaging lipidomic metabolomic proteomic study study/data_dictionaries; do
   if ! mkdir -p "$ROOT_NAME/$dir"; then
     echo "Error: Failed to create directory $ROOT_NAME/$dir" 1>&2
     exit 1
