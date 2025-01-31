@@ -38,6 +38,7 @@ YYYY-MM-DD_STUDY_ID_ACDC_Data_Transfer/
 ├── clinical/
 ├── genomic/
 ├── imaging/
+├── lipidomic/
 ├── metabolomic/
 ├── proteomic/
 ├── study/
